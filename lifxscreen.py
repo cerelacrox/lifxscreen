@@ -1,3 +1,7 @@
+# Author: Frak Al-Nuaimy 
+# email: frakman@hotmail.com
+# adapted by cerelac_rox@hotmail.com
+
 from PIL import ImageGrab
 import time
 import os
@@ -9,8 +13,8 @@ import requests
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////
 #HEIGHT         = 1920   #now using image.size[1] dynamically
 #WIDTH          = 1200   #now using image.size[0] dynamically
-LOOP_INTERVAL  = 1    # how often we calculate screen colour (in seconds)
-DURATION       = 1    # how long it takes bulb to switch colours (in seconds)
+LOOP_INTERVAL  = 3    # how often we calculate screen colour (in seconds)
+DURATION       = 3    # how long it takes bulb to switch colours (in seconds)
 DECIMATE       = 10   # skip every DECIMATE number of pixels to speed up calculation
 #get your unit-unique token from http://developer.lifx.com/ and use it here
 TOKEN          = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
